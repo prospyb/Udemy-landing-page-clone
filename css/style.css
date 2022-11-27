@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    /* font-size: 1.6rem; */
+    color: #1c1d1f;
+}
+
+#pre-header {
+    background: rgb(86,36,208);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pre-header p {
+    margin: auto;
+}
+
+.font-p {
+    color: #fff;
+    font-weight: 700;
+}
+
+#pre-header a {
+    color: #fff;
+    text-underline-offset: 4px;
+}
+
+.fa-xmark {
+    margin-right: 10px;
+}
