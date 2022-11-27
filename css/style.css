@@ -117,6 +117,114 @@ header {
     font-size: 1.8rem;
 }
 
-.landing-image-content h1, p {
+.landing-image-content h1, .landing-image-content p {
     margin: 15px 0 0 30px;
+}
+
+.courses-container {
+    margin: 0 30px;
+}
+
+.courses-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.courses-wrap a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #6a6f73;
+    font-size:1.1rem;
+}
+
+.courses-wrap a:hover {
+    color: #000;
+}
+
+.courses-container h1 {
+    margin:20px 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses-container-p {
+    margin:20px 0;
+    font-size:1.2rem;
+}
+
+.courses-box {
+    border: 1px solid rgb(212, 212, 212);
+    margin:20px;
+    padding: 30px;
+}
+
+.courses-box-p {
+    width: 80%;
+    margin:20px 0;
+}
+
+.courses-box button {
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: #000;
+    background: #fff;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.courses-box button:hover {
+    color: #000;
+    background: rgb(209,215,220);
+}
+
+.courses-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.card-box {
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.tutor-name {
+    font-size: 0.8rem;
+    color: #6a6f73;
+}
+
+.star {
+    font-size: 0.9rem;
+    color: #6a6f73;
+}
+
+.star-rating {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #b4690e;
+}
+
+.fa-star, .fa-star-half-stroke {
+    color: rgb(229,152,25);
+}
+
+.buy-price {
+    font-weight: 700;
+}
+
+strike {
+    color: #6a6f73;
+}
+
+.bestseller-btn button {
+    padding: 5px 10px;
+    background: rgb(236,235,152);
+    color: #3d3c0a;
+    font-weight: 600;
+    border: none;
 }
