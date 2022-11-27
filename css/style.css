@@ -142,6 +142,10 @@ header {
     color: #000;
 }
 
+.courses-container {
+    margin-bottom: 70px;
+}
+
 .courses-container h1 {
     margin:20px 0;
     font-size: 2.2rem;
@@ -227,4 +231,29 @@ strike {
     color: #3d3c0a;
     font-weight: 600;
     border: none;
+}
+
+.divider-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.divider-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background: rgb(238, 236, 236);
+    margin-bottom: 70px;
+    gap: 80px;
+}
+
+.divider-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.divider-wrapper p {
+    font-weight: 750;
 }
