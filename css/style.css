@@ -17,6 +17,7 @@ body {
     color: #fff;
     padding: 15px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -37,4 +38,89 @@ body {
 
 .fa-xmark {
     margin-right: 10px;
+    cursor: pointer;
+}
+
+header {
+    margin: 10px 30px;
+}
+
+#nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #nav-search {
+    padding: 16px 170px;
+    border-radius: 2rem;
+    border: 1px solid #000;
+}
+
+.search-input i {
+    position: absolute;
+}
+
+.search-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fa-magnifying-glass {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+
+.nav-search {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+} */
+
+
+.input-icons i {
+    position: absolute;
+}
+  
+.fa-magnifying-glass {
+    padding: 15px;
+}
+  
+.input-field {
+    padding: 16px 170px;
+    border-radius: 2rem;
+    border: 1px solid #000;
+    text-align: start;
+}
+
+.nav-mega-menu {
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-cart-shopping {
+    font-size: 20px;
+}
+
+.reg-btn {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.signup-btn {
+    background: #000;
+    color: #fff;
+}
+
+.lang-btn {
+    padding: 10px 15px;
+    border: 1px solid #000;
+    color: #000;
 }
