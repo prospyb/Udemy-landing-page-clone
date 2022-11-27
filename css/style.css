@@ -42,7 +42,8 @@ body {
 }
 
 header {
-    margin: 10px 30px;
+    box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.151);
+    position: relative;
 }
 
 #nav-wrapper {
@@ -50,36 +51,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 30px;
 }
-
-/* #nav-search {
-    padding: 16px 170px;
-    border-radius: 2rem;
-    border: 1px solid #000;
-}
-
-.search-input i {
-    position: absolute;
-}
-
-.search-input {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.fa-magnifying-glass {
-    padding: 10px;
-    color: green;
-    min-width: 50px;
-    text-align: center;
-}
-
-.nav-search {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-} */
-
 
 .input-icons i {
     position: absolute;
@@ -123,4 +96,27 @@ header {
     padding: 10px 15px;
     border: 1px solid #000;
     color: #000;
+}
+
+.landing-image {
+    background-image: url(../Images/udemy-landing-image.jpg);
+    height: 400px;
+    margin: 0 5px;
+}
+
+.landing-image-content {
+    background-color: #fff;
+    width: 35%;
+    height: 180px;
+    position: absolute;
+    margin: 50px 0 0 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.landing-image-content h1 {
+    font-size: 1.8rem;
+}
+
+.landing-image-content h1, p {
+    margin: 15px 0 0 30px;
 }
