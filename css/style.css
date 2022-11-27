@@ -136,6 +136,7 @@ header {
     font-weight: 700;
     color: #6a6f73;
     font-size:1.1rem;
+    margin-bottom: 20px;
 }
 
 .courses-wrap a:hover {
@@ -159,13 +160,12 @@ header {
 
 .courses-box {
     border: 1px solid rgb(212, 212, 212);
-    margin:20px;
-    padding: 30px;
+    padding: 40px 30px 20px 30px;
 }
 
 .courses-box-p {
     width: 80%;
-    margin:20px 0;
+    margin:15px 0;
 }
 
 .courses-box button {
@@ -256,4 +256,13 @@ strike {
 
 .divider-wrapper p {
     font-weight: 750;
+}
+
+.student-card-container {
+    padding: 0 30px;
+    margin-bottom: 100px;
+}
+
+.student-card-container h1 {
+    margin-bottom: 20px;
 }
