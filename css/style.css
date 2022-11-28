@@ -266,3 +266,31 @@ strike {
 .student-card-container h1 {
     margin-bottom: 20px;
 }
+
+.category-container {
+margin: 0 30px;
+margin-bottom: 150px;
+}
+
+.category-container h1 {
+    margin-bottom: 20px;
+}
+
+.category-container p {
+    font-weight: 700;
+    color: #000;
+}
+.category-container a {
+    text-decoration: none;
+}
+
+.category-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.category-card img {
+    width: 100%;
+}
