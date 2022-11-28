@@ -78,6 +78,10 @@ header {
     font-size: 20px;
 }
 
+.fa-cart-shopping {
+    cursor: pointer;
+}
+
 .reg-btn {
     padding: 10px 20px;
     background: #fff;
@@ -293,6 +297,13 @@ margin-bottom: 150px;
 
 .category-card img {
     width: 100%;
+    transform: scale(1);
+    transition: all .2s ease-in-out;
+}
+
+.category-card img:hover {
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
 }
 
 .topic-container {
