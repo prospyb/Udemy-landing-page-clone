@@ -340,5 +340,44 @@ margin-bottom: 150px;
     color: #000;
     font-size:0.9rem;
     font-weight: 700;
+}
 
+.instructor-container {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+.instructor-content {
+    width: 41%;
+}
+
+.instructor-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.instructor-content p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.instructor-content button {
+    padding: 15px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: #1c1d1f;
+}
+
+.instructor-content button:hover {
+    background: #000;
+}
+
+.instructor-content button a {
+    text-decoration: none;
+    color: #fff;
+    font-size:0.9rem;
+    font-weight: 700;
 }
