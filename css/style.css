@@ -402,3 +402,48 @@ margin-bottom: 150px;
     padding: 0 30px;
     margin-top: 30px;
 }
+
+.u-business-container {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+.u-business-text {
+    width: 41%;
+}
+
+.u-business-text img {
+    width: 192px;
+    height: 32.7px;
+}
+
+.u-business-text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.u-business-text p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.u-business-text button {
+    padding: 15px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: #1c1d1f;
+}
+
+.u-business-text button:hover {
+    background: #000;
+}
+
+.u-business-text button a {
+    text-decoration: none;
+    color: #fff;
+    font-size:0.9rem;
+    font-weight: 700;
+}
