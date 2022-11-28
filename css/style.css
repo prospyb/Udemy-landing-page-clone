@@ -447,3 +447,44 @@ margin-bottom: 150px;
     font-size:0.9rem;
     font-weight: 700;
 }
+
+.transform-container {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+
+.transform-content {
+    width: 41%;
+}
+
+.transform-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.transform-content p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.transform-content button {
+    padding: 15px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: #1c1d1f;
+}
+
+.transform-content button:hover {
+    background: #000;
+}
+
+.transform-content button a {
+    text-decoration: none;
+    color: #fff;
+    font-size:0.9rem;
+    font-weight: 700;
+}
